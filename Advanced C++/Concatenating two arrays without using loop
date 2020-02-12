@@ -1,12 +1,16 @@
 //Concatenating two arrays without using loop
 
+
+
+#include<bits/stdc++.h>
+using namespace std;
+
 void concatenate(int arr,int ar,int m,int n){
  memcpy(arr1 + m, arr2, sizeof(arr2));
 
 }
 
-#include<bits/stdc++.h>
-using namespace std;
+
 int main(){
 //an array of integers
 	int arr[]={1,2,3,4};				        
