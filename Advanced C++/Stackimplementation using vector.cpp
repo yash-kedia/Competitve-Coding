@@ -1,18 +1,19 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+template <typename T>
 class Stack{
-  vector<int> v;
+  vector<T> v;
 public:
-  void push(int d){
+  void push(T d){
     v.push_back(d);
   }
 
-  void pop(int d){
+  void pop(T d){
     v.pop_back();
 
   }
-  int top(){
+  T top(){
     return v[v.size()-1];
 
   }
